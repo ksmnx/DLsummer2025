@@ -1,0 +1,8 @@
+val:
+  _target_: src.datasets.AntiSpoofDataset
+  protocol_name: "dev.trl"
+  name: "dev"
+test:
+  _target_: src.datasets.AntiSpoofDataset
+  protocol_name: "eval.trl"
+  name: "eval"
